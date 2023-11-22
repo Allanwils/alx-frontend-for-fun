@@ -1,4 +1,3 @@
-// Import the list to sort
 @import '103-sort_list';
 
 // Sort the list
@@ -8,3 +7,4 @@ $list_to_sort: sort($list_to_sort);
 @each $name in $list_to_sort {
     @debug $name;
 }
+
